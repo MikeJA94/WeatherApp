@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Content/Site.css",
+    "inputFile": "Content/Site.scss"
+  },
+  {
+    "outputFile": "Scripts/react/dist/app.js",
+    "inputFile": "Scripts/react/app.jsx"
+  }
+]

@@ -1,0 +1,63 @@
+﻿html,body {
+    
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+
+
+    .listHost {
+        height: 300px;
+
+        .contentSlider .sliderItem {
+            position: relative;
+            text-align: center;
+            font-size: 150%;
+            height: 350px;
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px;
+
+            .info {
+                margin-top: -200px;
+                color: white;
+            }
+
+            img {
+                width: 100%;
+                height: 300px;
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(219,219,219,1);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(219,219,219,1);
+                box-shadow: 10px 10px 5px 0px rgba(219,219,219,1);
+                border-radius: 10px;
+            }
+        }
+
+        .slick-current img {
+            
+        }
+        
+    }
+
+
+    .sectionOne, .sectionTwo {
+        height: 300px;
+        padding: 0;
+
+        #map_canvas {
+            height: 300px;
+            width: 100%;
+        }
+    }
+}
