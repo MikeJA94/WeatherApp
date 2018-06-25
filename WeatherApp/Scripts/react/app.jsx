@@ -3,33 +3,8 @@ import CityList from './components/city-list.jsx';
 
 var Main = React.createClass({ 
     componentDidMount() {
-
-        //$.ajax({
-
-        //    url: 'http://foxtwolabs.com/webapiservices/sampleservice/api/cities/',
-
-        //    type: 'GET',
-
-        //    dataType: 'json',
-
-        //    success: function (data, textStatus, xhr) {
-
-        //        console.log(data);
-
-        //    },
-
-        //    error: function (xhr, textStatus, errorThrown) {
-
-        //        console.log('Error in Operation');
-
-        //    }
-
-        //});
-
         
     },
-
-
     render: function () {
         return (
             <div>
